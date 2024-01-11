@@ -7,15 +7,12 @@ function funcionar() {
     if (idade >= 18) {
         console.log('Parabéns ' + nome + '. Você tem ' + idade + ' anos.');
     } else {
-        console.log('Você ainda vai se encontrar')
+        console.log('Você ainda vai se encontrar');
+    }
+
+    if(em === 'sim'){
+        console.log('Maravilha! Você pode fazer a faculdade de: ' + faculdade);
+    }else{
+        console.log('Infelizmente você não pode fazer a sua faculdade desejada: ' + faculdade);
     }
 }
-
-function segundobtn() {
- if(em === 'sim'){
-    console.log('Maravilha! Você pode fazer a faculdade de: ' + faculdade);
-}else{
-    console.log('Infelizmente você não pode fazer a sua faculdade desejada: ' + faculdade);
-}
-}
-
